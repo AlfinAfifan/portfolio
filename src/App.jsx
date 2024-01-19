@@ -9,8 +9,6 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-
-      // Tambahkan logika disini untuk menentukan apakah harus transparan atau tidak
       const shouldBeTransparent = scrollTop === 0; // Ganti kondisi ini sesuai kebutuhan
 
       setIsScrolled(shouldBeTransparent);
@@ -39,7 +37,7 @@ function App() {
 
   return (
     <div className="bg-slate-100">
-      <div className={`px-7 lg:px-60 py-5 flex items-center justify-between sticky top-0 shadow-md lg:shadow-none ${isScrolled ? 'transparent' : 'bg-white lg:shadow-md'}`}>
+      <div className={`px-7 lg:px-60 py-5 flex items-center justify-between sticky shadow-md top-0 ${isScrolled ? 'transparent' : 'bg-white'}`}>
         <h1 className="text-lg lg:text-xl font-bold font-roboto text-sky-700">MyProfile</h1>
         <div className="lg:flex hidden">
           <a className="hover:font-semibold w-32 text-end" href="#homepage">
