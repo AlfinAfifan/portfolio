@@ -139,7 +139,7 @@ function App() {
       <div id="portfolio" className="flex flex-col items-center font-montserrat text-white bg-sky-950 py-20 lg:py-32">
         <div className="px-7 lg:px-60 flex flex-col items-center">
           <div className="text-sm lg:text-base">Portfolio</div>
-          <h1 className="text-xl font-semibold">Project Completed</h1>
+          <h1 className="text-xl lg:text-2xl font-semibold">Project Completed</h1>
           <div className="grid gap-y-5 grid-cols-1 lg:grid-cols-2 lg:gap-x-20 mt-7">
             {data.map((video) => (
               <div className="flex flex-col gap-3 mt-2 items-center" key={video.id}>
@@ -155,7 +155,7 @@ function App() {
       <div id="contact" className=" flex flex-col items-center font-montserrat text-gray-800 py-20 lg:py-24">
         <div className="px-7 lg:px-60 flex flex-col items-center w-full">
           <div className="text-sm lg:text-base">Contact</div>
-          <h1 className="text-xl font-semibold text-sky-800">Contact Me</h1>
+          <h1 className="text-xl lg:text-2xl font-semibold text-sky-800">Contact Me</h1>
           <p className="text-sm lg:text-base text-center mt-5">Above is my identity and experience briefly, please see my cv to see my identities in detail. You can contact me if you need my skill</p>
           <form action="" onSubmit={sendEmail} className="mt-10 text-sm lg:text-base w-full">
             <div className="flex flex-col w-full">
