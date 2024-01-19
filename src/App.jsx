@@ -138,12 +138,12 @@ function App() {
         <div className="px-7 lg:px-60 flex flex-col items-center">
           <div className="text-sm lg:text-base">Portfolio</div>
           <h1 className="text-xl lg:text-2xl font-semibold">Project Completed</h1>
-          <div className="grid gap-y-5 grid-cols-1 lg:grid-cols-2 lg:gap-x-20 mt-7">
+          <div className="grid gap-y-5 lg:gap-y-12 grid-cols-1 lg:grid-cols-2 lg:gap-x-20 mt-7 lg:mt-10">
             {data.map((video) => (
               <div className="flex flex-col gap-3 mt-2 items-center" key={video.id}>
                 <iframe src={video.link} className="rounded-lg lg:w-full lg:h-60"></iframe>
-                <h1 className="font-semibold">Online Shop</h1>
-                <p className="text-center text-sm lg:text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates eaque, debitis modi officia natus ducimus quidem ea earum fugit eum.</p>
+                <h1 className="font-semibold text-center lg:text-lg">{video.title}</h1>
+                <p className="text-center text-sm lg:text-base">{video.description}</p>
               </div>
             ))}
           </div>
