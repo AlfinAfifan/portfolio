@@ -3,18 +3,18 @@
     "id": 1,
     "link": "https://www.youtube.com/embed/nRw0D9ILluI",
     "title": "Webiste Bakorwil 3 Malang",
-    "description": "Website ini dibuat untuk menggantikan website Bakorwil 3 Malang yang lama, dibangun dengan menggunakan React Js, Express Js, dan MySql."
+    "description": "This website is created to replace the old Bakorwil 3 Malang website. This website is built using React Js, Express Js, and MySql."
   },
   {
     "id": 2,
     "link": "https://www.youtube.com/embed/OzeUqzlwwOY",
-    "title": "Aplikasi Administrasi Desa Karanganyar",
-    "description": "Aplikasi berbasis web ini dibuat dengan tujuan melakukan digitalisasi proses administrasi yang ada di Kantor Desa Karanganyar. Aplikasi ini dibangun dengan menggunakan React Js, Express Js, dan MySql."
+    "title": "Administration Application of Karanganyar Village",
+    "description": "This web-based application is created with the aim of digitizing the administrative processes at the Karanganyar Village Office. The application is built using React Js, Express Js, and MySql."
   },
   {
     "id": 3,
     "link": "https://www.youtube.com/embed/RQeVbaCtA1A",
-    "title": "Webiste Partai PKS Yang Bekerjasama dengan Geemen",
-    "description": "Website ini dibuat untuk menyimpan seluruh kegiatan partai PKS yang bekerjasama dengan Geemen."
+    "title": "The PKS Party Website in Collaboration with Geemen",
+    "description": "This website is created to store all the activities of the PKS party in collaboration with Geemen."
   }
 ]
