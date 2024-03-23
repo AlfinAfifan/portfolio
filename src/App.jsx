@@ -87,10 +87,10 @@ function App() {
       <div id="homepage" className="flex items-center lg:gap-14 justify-between font-montserrat text-gray-800 py-10 lg:py-32 lg:mb-20 w-full lg:px-60">
         <div className="flex flex-col gap-2 items-center lg:items-start px-7 lg:px-0 lg:w-[80%]">
           <h1 className="font-semibold text-lg lg:text-xl">Halloo!</h1>
-          <h1 className="text-3xl lg:text-4xl font-bold">
+          <h1 className="text-4xl lg:text-5xl font-bold">
             I'm <span className="text-sky-700">Alfin Afifan</span>
           </h1>
-          <h5 className="font-roboto text-sm lg:text-base -mt-2 text-gray-700">Frontend Web Developer</h5>
+          <h5 className="font-roboto text-sm lg:text-base -mt-2 text-gray-700">Frontend & Full Stack Web Developer</h5>
           <div className="w-52 h-52 border-8 border-sky-800 rounded-full mt-5 overflow-hidden lg:hidden">
             <img src={Profil} alt="" className="mb-10" />
           </div>
