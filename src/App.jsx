@@ -98,7 +98,7 @@ function App() {
             I am a person who loves the challenges and the world of technology. I am committed to continuously learning and keeping up with the developments in programming languages. The reason I love programming is because of the
             challenges inherent in the programming world, especially when encountering errors during the application development process.
           </p>
-          <a href="https://drive.google.com/file/d/1BY5Fg9t47yNPweu3NK87TRoaP48Jn6wT/view?usp=sharing" target="_blank" className="bg-sky-700 mt-8 px-5 text-sm lg:text-base hover:bg-sky-800 py-2 rounded-full text-white">
+          <a href="https://drive.google.com/file/d/1SCLQLSC2OBv0O9gM3T9YaWMgpY7kN7OX/view?usp=sharing" target="_blank" className="bg-sky-700 mt-8 px-5 text-sm lg:text-base hover:bg-sky-800 py-2 rounded-full text-white">
             Curriculum Vitae
           </a>
         </div>
