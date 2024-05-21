@@ -2,6 +2,7 @@ import { Bars3BottomRightIcon, EnvelopeIcon, XMarkIcon } from '@heroicons/react/
 import { useEffect, useState } from 'react';
 import Profil from './assets/images/foto.jpg';
 import data from './data.json';
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaRegEnvelope } from 'react-icons/fa6';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -90,7 +91,7 @@ function App() {
           <h1 className="text-4xl lg:text-5xl font-bold">
             I'm <span className="text-sky-700">Alfin Afifan</span>
           </h1>
-          <h5 className="font-roboto text-sm lg:text-base -mt-2 text-gray-700">Frontend & Full Stack Web Developer</h5>
+          <h5 className="font-roboto text-sm lg:text-base -mt-2 text-gray-700">Full Stack Web Developer</h5>
           <div className="w-52 h-52 border-8 border-sky-800 rounded-full mt-5 overflow-hidden lg:hidden">
             <img src={Profil} alt="" className="mb-10" />
           </div>
@@ -98,7 +99,7 @@ function App() {
             I am a person who loves the challenges and the world of technology. I am committed to continuously learning and keeping up with the developments in programming languages. The reason I love programming is because of the
             challenges inherent in the programming world, especially when encountering errors during the application development process.
           </p>
-          <a href="https://drive.google.com/file/d/1Xiy2HMctFsGNXEiqgge9aKrVGZIUrzqv/view?usp=sharing" target="_blank" className="bg-sky-700 mt-8 px-5 text-sm lg:text-base hover:bg-sky-800 py-2 rounded-full text-white">
+          <a href="https://drive.google.com/file/d/13k5XgeFrq2l_zRvanPCLFQcJTknMS_Tb/view?usp=sharing" target="_blank" className="bg-sky-700 mt-8 px-5 text-sm lg:text-base hover:bg-sky-800 py-2 rounded-full text-white">
             Curriculum Vitae
           </a>
         </div>
@@ -186,10 +187,22 @@ function App() {
         </div>
       </div>
 
-      <footer className="flex flex-col items-center font-montserrat text-white bg-sky-950 mt-10 py-10 text-sm lg:text-base">
-        <h1 className="">Made by</h1>
-        <h1 className="text-base py-3 font-semibold">Agus Alfin 'Afifan Mahfudh</h1>
-        <h1 className="">Using React Js & Tailwind CSS</h1>
+      <footer className="flex flex-col gap-5 items-center font-montserrat text-white bg-sky-950 mt-10 py-10 text-sm lg:text-base">
+        <h1 className="">My Social Media</h1>
+        <div className="flex gap-7 text-xl">
+          <a href="https://www.instagram.com/afiifann/" target='_blank'>
+            <FaInstagram />
+          </a>
+          <a href="mailto:agusalfin1@gmail.com" target='_blank'>
+            <FaRegEnvelope />
+          </a>
+          <a href="https://www.linkedin.com/in/alfin-afifan-067795269/" target='_blank'>
+            <FaLinkedin/>
+          </a>
+          <a href="https://github.com/AlfinAfifan" target='_blank'>
+            <FaGithub/>
+          </a>
+        </div>
       </footer>
     </div>
   );
