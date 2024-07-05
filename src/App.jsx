@@ -91,7 +91,7 @@ function App() {
           <h1 className="text-4xl lg:text-5xl font-bold">
             I'm <span className="text-sky-700">Alfin Afifan</span>
           </h1>
-          <h5 className="font-roboto text-sm lg:text-base -mt-2 text-gray-700">Full Stack Web Developer</h5>
+          <h5 className="font-roboto text-sm lg:text-base -mt-2 text-gray-700">Front End Developer</h5>
           <div className="w-52 h-52 border-8 border-sky-800 rounded-full mt-5 overflow-hidden lg:hidden">
             <img src={Profil} alt="" className="mb-10" />
           </div>
@@ -99,7 +99,7 @@ function App() {
             I am a person who loves the challenges and the world of technology. I am committed to continuously learning and keeping up with the developments in programming languages. The reason I love programming is because of the
             challenges inherent in the programming world, especially when encountering errors during the application development process.
           </p>
-          <a href="https://drive.google.com/file/d/13k5XgeFrq2l_zRvanPCLFQcJTknMS_Tb/view?usp=sharing" target="_blank" className="bg-sky-700 mt-8 px-5 text-sm lg:text-base hover:bg-sky-800 py-2 rounded-full text-white">
+          <a href="https://drive.google.com/file/d/1NJXQWuQUdmdTrGprwkZhMbsqlCEGvTMj/view?usp=sharing" target="_blank" className="bg-sky-700 mt-8 px-5 text-sm lg:text-base hover:bg-sky-800 py-2 rounded-full text-white">
             Curriculum Vitae
           </a>
         </div>
@@ -112,28 +112,33 @@ function App() {
         <div className="px-7 lg:px-60 flex flex-col">
           <div className="text-sm lg:text-base mx-auto">About Me</div>
           <h1 className="text-xl lg:text-2xl font-semibold mx-auto text-sky-800">Let Me Introduce Myself</h1>
-          <p className="text-sm lg:text-base text-justify mx-auto mt-5">My full name is Agus Alfin 'Afifan Mahfudh, commonly known as Alfin. At my age that's 22 years old I have some experience, including :</p>
+          <p className="text-sm lg:text-base text-justify mx-auto my-10">My full name is Agus Alfin 'Afifan Mahfudh, commonly known as Alfin. At my age that's 22 years old I have some experience, including :</p>
           <div className="flex items-center gap-7 mt-5 justify-start">
-            <h1 className="font-semibold w-[30%] ">Front End Web Developer</h1>
-            <p className="text-justify w-[70%]">Internship program at Sekawan Media company as a frontend web developer using React Typescript.</p>
+            <h1 className="font-semibold w-[30%] ">Front End Developer</h1>
+            <p className="text-justify w-[70%]">At PT Sastro Utama Media Grup as a frontend developer using Vue js.</p>
           </div>
           <div className="h-0.5 w-full bg-slate-300 my-6"></div>
-          <div className="flex items-center gap-7 mt-5 justify-start">
+          <div className="flex items-center gap-7 justify-start">
+            <h1 className="font-semibold w-[30%] ">Front End Developer</h1>
+            <p className="text-justify w-[70%]">Internship program at Sekawan Media company as a frontend developer using React Typescript.</p>
+          </div>
+          <div className="h-0.5 w-full bg-slate-300 my-6"></div>
+          <div className="flex items-center gap-7 justify-start">
             <h1 className="font-semibold w-[30%] ">Web Developer</h1>
             <p className="text-justify w-[70%]">As a freelance web developer with various projects that have been completed.</p>
           </div>
           <div className="h-0.5 w-full bg-slate-300 my-6"></div>
           <div className="flex items-center gap-7 justify-start">
-            <h1 className="font-semibold w-[30%] ">Web Developer</h1>
+            <h1 className="font-semibold w-[30%] ">Full Stack Developer</h1>
             <p className="text-justify w-[70%]">Internship program at BAKORWIL 3 Malang instance as a fullstack web developer using React Js, Express Js and MySql.</p>
           </div>
           <div className="h-0.5 w-full bg-slate-300 my-6"></div>
           <div className="flex items-center justify-start gap-7">
-            <h1 className="font-semibold w-[30%]">Web Developer</h1>
+            <h1 className="font-semibold w-[30%]">Studi Independent Full Stack Developer</h1>
             <p className="text-justify w-[70%]">Bootcamp as fullstack web developer during 4 months in PT. Arkatama Multi Solusindo using Laravel and MySql.</p>
           </div>
           <div className="h-0.5 w-full bg-slate-300 my-6"></div>
-          <div className="flex items-center gap-7 lg:mt-10 justify-start">
+          <div className="flex items-center gap-7 justify-start">
             <h1 className="font-semibold w-[30%] ">Graphic Designer Instructor</h1>
             <p className="text-justify w-[70%]">As a freelance graphic designer and graphic design instructor at one of the training institutions called LKP Andalas.</p>
           </div>
@@ -190,17 +195,17 @@ function App() {
       <footer className="flex flex-col gap-5 items-center font-montserrat text-white bg-sky-950 mt-10 py-10 text-sm lg:text-base">
         <h1 className="">My Social Media</h1>
         <div className="flex gap-7 text-xl">
-          <a href="https://www.instagram.com/afiifann/" target='_blank'>
+          <a href="https://www.instagram.com/afiifann/" target="_blank">
             <FaInstagram />
           </a>
-          <a href="mailto:agusalfin1@gmail.com" target='_blank'>
+          <a href="mailto:agusalfin1@gmail.com" target="_blank">
             <FaRegEnvelope />
           </a>
-          <a href="https://www.linkedin.com/in/alfin-afifan-067795269/" target='_blank'>
-            <FaLinkedin/>
+          <a href="https://www.linkedin.com/in/alfin-afifan-067795269/" target="_blank">
+            <FaLinkedin />
           </a>
-          <a href="https://github.com/AlfinAfifan" target='_blank'>
-            <FaGithub/>
+          <a href="https://github.com/AlfinAfifan" target="_blank">
+            <FaGithub />
           </a>
         </div>
       </footer>
